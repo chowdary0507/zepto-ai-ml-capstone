@@ -1,0 +1,27 @@
+SQL JOIN RESULT
+                                                                            title      category_name  rating  price_inr
+                                          A Flight of Arrows (The Pathfinders #2) Historical Fiction       5   5858.415
+         The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1)            Mystery       5   5517.650
+                          Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)     Sequential Art       5   5516.595
+                                           A Time of Torment (Charlie Parker #14)            Mystery       5   5100.925
+                                                                     The Red Tent Historical Fiction       5   3762.130
+                                                                     Mrs. Houdini Historical Fiction       5   3191.375
+                                                            The Passion of Dolssa Historical Fiction       5   2987.760
+                What Happened on Beale Street (Secrets of the South Mysteries #2)            Mystery       5   2676.535
+                                                           Voyager (Outlander #3) Historical Fiction       5   2222.885
+Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)     Sequential Art       5   1435.855
+
+PANDAS MERGE RESULT
+                                                                            title      category_name  rating  price_inr
+                                          A Flight of Arrows (The Pathfinders #2) Historical Fiction       5   5858.415
+         The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1)            Mystery       5   5517.650
+                          Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)     Sequential Art       5   5516.595
+                                           A Time of Torment (Charlie Parker #14)            Mystery       5   5100.925
+                                                                     The Red Tent Historical Fiction       5   3762.130
+                                                                     Mrs. Houdini Historical Fiction       5   3191.375
+                                                            The Passion of Dolssa Historical Fiction       5   2987.760
+                What Happened on Beale Street (Secrets of the South Mysteries #2)            Mystery       5   2676.535
+                                                           Voyager (Outlander #3) Historical Fiction       5   2222.885
+Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)     Sequential Art       5   1435.855
+
+EQUIVALENT: True

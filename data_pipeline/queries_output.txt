@@ -1,0 +1,68 @@
+QUERY: SELECT/WHERE
+ROWS: 5
+                           title  price_inr
+   Boar Island (Anna Pigeon #19)   6275.140
+                         Candide   6185.465
+                     Animal Farm   6036.710
+             The Past Never Ends   5960.750
+The Last Painting of Sara de Vos   5860.525
+
+QUERY: ORDER BY
+ROWS: 10
+                                                                            title  rating
+                                          A Flight of Arrows (The Pathfinders #2)       5
+                                           A Time of Torment (Charlie Parker #14)       5
+                                                                     Mrs. Houdini       5
+Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)       5
+                          Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)       5
+         The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1)       5
+                                                            The Passion of Dolssa       5
+                                                                     The Red Tent       5
+                                                           Voyager (Outlander #3)       5
+                What Happened on Beale Street (Secrets of the South Mysteries #2)       5
+
+QUERY: LIMIT
+ROWS: 5
+                           title  price_gbp
+   Boar Island (Anna Pigeon #19)      59.48
+                         Candide      58.63
+                     Animal Farm      57.22
+             The Past Never Ends      56.50
+The Last Painting of Sara de Vos      55.55
+
+QUERY: DISTINCT
+ROWS: 4
+ category_id
+           1
+           2
+           3
+           4
+
+QUERY: BETWEEN
+ROWS: 10
+                                                  title  price_inr
+                                      Wuthering Heights   1870.515
+                                            Lilac Girls   1823.040
+                                          Camp Midnight   1801.940
+                A Study in Scarlet (Sherlock Holmes #1)   1765.015
+                                       A Murder in Time   1755.520
+             The Constant Princess (The Tudor Court #1)   1753.410
+Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)   1717.540
+ Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1)   1628.920
+                                      The Secret Garden   1590.940
+     The Hound of the Baskervilles (Sherlock Holmes #5)   1563.510
+
+QUERY: JOIN
+ROWS: 10
+                                                                            title      category_name  rating  price_inr
+                                          A Flight of Arrows (The Pathfinders #2) Historical Fiction       5   5858.415
+         The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1)            Mystery       5   5517.650
+                          Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)     Sequential Art       5   5516.595
+                                           A Time of Torment (Charlie Parker #14)            Mystery       5   5100.925
+                                                                     The Red Tent Historical Fiction       5   3762.130
+                                                                     Mrs. Houdini Historical Fiction       5   3191.375
+                                                            The Passion of Dolssa Historical Fiction       5   2987.760
+                What Happened on Beale Street (Secrets of the South Mysteries #2)            Mystery       5   2676.535
+                                                           Voyager (Outlander #3) Historical Fiction       5   2222.885
+Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)     Sequential Art       5   1435.855
+
