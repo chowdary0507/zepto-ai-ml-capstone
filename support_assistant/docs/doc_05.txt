@@ -1,0 +1,16 @@
+Order
+Cancellation
+Policy:
+Orders
+can
+be
+cancelled
+freely
+before
+items
+are
+picked
+up
+by
+the
+courier.
